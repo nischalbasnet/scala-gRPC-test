@@ -1,7 +1,7 @@
 # scala-gRPC-test
-Sample of gRPC using ScalaPB
+Sample of [gRPC](https://grpc.io) using [ScalaPB](https://scalapb.github.io).<br/>
 Configuration file is present in src/main/resources/application.conf
-Instance of typesafe Config class injected using scala-guice
+Instance of [typesafe Config](https://github.com/lightbend/config) class injected using scala-guice
 
 ### Server
 Run following command and select option for AppServer 
