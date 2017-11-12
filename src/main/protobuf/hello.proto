@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.nischal.protos;
+
+//Greeing service definition
+service Greeting {
+    //Sends greeting
+    rpc sayHello (HelloReq) returns (HelloRes) {
+    }
+}
+
+//request payload for sayHello
+message HelloReq {
+    string name = 1;
+}
+
+//response from sayHello
+message HelloRes {
+    string message = 1;
+}
